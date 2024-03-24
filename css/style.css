@@ -1,0 +1,37 @@
+.top, .footer  {
+    background-color: #1d6e4d;
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #fff;
+}
+
+.limits-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.presentation img, .area p, .three-img-area {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.area {
+    width: calc(100% - 70px);
+    margin: 20px 35px;
+}
+
+.gallery img {
+    margin: 0 1.5px;
+    width: calc((100% / 3) - 3px);
+}
+
+.three-img-area {
+    display: flex;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
